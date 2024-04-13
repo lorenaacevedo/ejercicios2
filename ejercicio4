@@ -1,0 +1,12 @@
+//Crear una función que tome el número de wins , draws y losses y calcula la cantidad de puntos que un equipo de fútbol ha obtenido hasta ahora.
+Algoritmo ejercicio4
+	definir wins,draws,losses Como entero
+	escribir "ingrese el numero de wins"
+	leer wins
+	escribir"ingrese el numero de draws"
+	leer draws
+	escribir "ingrese el numero de losses"
+	leer losses
+	puntos=wins*3+draws*1+losses*0 
+	escribir "su total de puntos es" ConvertirATexto(puntos)
+FinAlgoritmo
