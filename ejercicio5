@@ -1,0 +1,8 @@
+//Cree una función que tome la edad en años y devuelva la edad en días
+Algoritmo ejercicio5
+	definir edad Como Entero
+	escribir "ingrese su edad"
+	leer edad
+	años=edad*365
+	escribir "su edad en dias es:" ConvertirATexto(años)
+FinAlgoritmo
