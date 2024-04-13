@@ -1,0 +1,10 @@
+//Escriba una función que tome dos enteros ( hours , minutes ), los convierte en segundos y los agrega
+Algoritmo ejercicio3
+	Definir horas,minutos,segundos Como Entero
+	escribir "ingrese las horas"
+	leer horas 
+	escribir "ingrese los minutos"
+	leer minutos
+	segundos<-horas*3600+minutos*60
+escribir "su tiempo en segundos es:" ConvertirATexto(segundos)
+FinAlgoritmo
