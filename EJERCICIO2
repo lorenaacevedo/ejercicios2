@@ -1,0 +1,7 @@
+//Crear una función que invierta un boolean
+Algoritmo ejercicio2
+	Escribir "Ingrese un valor booleano (verdadero o falso): "
+	Leer booleano
+	valorInvertido <- no valorOriginal
+	Escribir "El valor invertido es: ", valorInvertido
+FinAlgoritmo
