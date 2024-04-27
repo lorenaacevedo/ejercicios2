@@ -1,0 +1,27 @@
+//Escribir un programa que encuentre el número máximo y mínimo en un array de números escritos por el usuario
+Algoritmo sin_titulo
+    Definir numero Como Entero
+	Dimension numero[1000000]
+    Escribir "Ingrese la cantidad de numeros "
+    Leer n
+    Para i <- 1 Hasta n Con Paso 1 Hacer
+        Escribir "Ingrese el primer numero", i, ": "
+        Leer numero[i]
+    FinPara
+	
+    maximo <- numero[1]
+    minimo <- numero[1]
+	
+    Para i <- 2 Hasta n Con Paso 1 Hacer
+        Si numero[i] > maximo Entonces
+            maximo <- numero[i]
+        FinSi
+        Si numero[i] < minimo Entonces
+            minimo <- numero[i]
+        FinSi
+    FinPara
+	
+    Escribir "El máximo elemento es: ", maximo
+    Escribir "El mínimo elemento es: ", minimo	
+	
+FinAlgoritmo
