@@ -1,0 +1,22 @@
+//Escribir un programa que sobreescriba un nombre en un array de nombres en determinada posición
+Algoritmo sin_titulo
+	Definir personas Como Entero
+	escribir "¿cuantas personas hay?"
+	leer personas 
+	
+	Dimension datos[personas,2]
+	
+	
+	Para i<-1 Hasta personas Con Paso 1 Hacer
+		Escribir "escribir el nombre de la persona ",i,":"
+		leer datos[i,1]
+	Fin Para
+	
+	Para i<-1 Hasta personas Con Paso 1 Hacer
+		escribir i," nombre:",datos[i,1] 
+		escribir "que posicion de numero requiere"
+		Leer posicion
+		
+	Fin Para
+
+FinAlgoritmo
